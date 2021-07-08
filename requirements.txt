@@ -2,6 +2,7 @@ flake8
 git+https://github.com/google/flax.git
 isort
 jax>=0.2.6
+einops>=0.3
 jaxlib
 mypy
 pre-commit

@@ -1,1 +1,1 @@
-# Template Repository
+# Flax Implementation of ResMLP

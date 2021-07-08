@@ -23,15 +23,15 @@ def find_version(*file_paths):
 
 
 readme = read("README.md")
-VERSION = find_version("", "__init__.py")
+VERSION = find_version("resmlp_flax", "__init__.py")
 
 setup(
-    name="",
+    name="ResMLP-flax",
     version=VERSION,
     author="Saurav Maheshkar",
     author_email="sauravvmaheshkar@gmail.com",
-    url="",
-    description="",
+    url="https://github.com/SauravMaheshkar/ResMLP-Flax",
+    description="Minimal Flax implementation of ResMLP: Feedforward networks for image classification with data-efficient training",
     long_description_content_type="text/markdown",
     long_description=readme,
     license="MIT",
