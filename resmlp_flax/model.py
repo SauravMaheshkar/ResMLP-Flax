@@ -1,4 +1,3 @@
-from functools import partial
 from typing import Any
 
 import flax.linen as nn
@@ -9,8 +8,6 @@ from einops import rearrange
 from .utils import Reduce, Sequential, gelu
 
 __all__ = ["Affine", "PreAffinePostLayerScale", "ResMLP"]
-
-full = partial(jnp.full)
 
 # ================ Helpers ====================
 def full(key, shape, fill_value, dtype=None):
