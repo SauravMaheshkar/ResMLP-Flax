@@ -26,7 +26,7 @@ readme = read("README.md")
 VERSION = find_version("resmlp_flax", "__init__.py")
 
 setup(
-    name="ResMLP-flax",
+    name="resmlp-flax",
     version=VERSION,
     author="Saurav Maheshkar",
     author_email="sauravvmaheshkar@gmail.com",
