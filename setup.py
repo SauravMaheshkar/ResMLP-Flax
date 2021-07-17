@@ -42,5 +42,5 @@ setup(
         )
     ),
     zip_safe=True,
-    install_requires=["einops>=0.3", "flax", "jax"],
+    install_requires=["flax", "jax"],
 )
